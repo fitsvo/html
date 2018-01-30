@@ -1,0 +1,77 @@
+header,footer {
+    font-size: 36px;
+    text-align: center;
+    font-family: "Calibri", fantasy;
+    color:#696966;
+}
+header { font-size: 36px}
+footer {font-size: 18px}
+body {
+    background-color: #f8f8f8;
+}
+.menu li{
+    list-style-type: none;
+    text-align: left;
+    font-family: "Comic Sans MS",fantasy;
+    font-size: 125%;
+}
+.menu li a{
+    color: black;
+    text-decoration: none;
+}
+
+.bighead {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+
+.optext {
+    color:#707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+    text-align: justify;
+}
+
+.podrtext {
+    color:#484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.chartext li {
+    color: #696969;
+    font-size: 14px;
+    font-style: initial;
+    list-style: none;
+    list-style-image: url(img/books.png);
+}
+
+.inputtext {
+    height: 20px;
+    width: 74.5%;
+    color: #696969;
+    font-size: 16px;
+}
+
+.cat {
+    text-align: center;
+    font-family: "Comic Sans MS", fantasy;
+    font-size: 100%;
+
+}
+.cat a{
+    color: black;
+    text-decoration: none;
+    }
+
+.pic a img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #777777;
+}
