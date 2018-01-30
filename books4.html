@@ -2,9 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
     <title>ИТ-букинист</title>
 </head>
-<body bgcolor=#f0ffff>
+<body>
 <header>
     <div><b>Интернет-магазин ИТ-букинист</b></div>
     <hr color="black" size="3px">
@@ -14,7 +15,7 @@
         <tbody>
         <tr>
             <td width="10%">
-                <ul>
+                <ul class="menu">
                     <li><a href="index.html">Главная</a> </li>
                     <li><a href="catalog.html">Каталог</a> </li>
                     <li><a href="contacts.html">Контакты</a> </li>
@@ -27,8 +28,8 @@
         <tr>
             <td></td>
             <td>
-                <div><h2><b>Описание товара</b></h2></div>
-                <div><p>Эта полноцветная книга - отличный источник информации для каждого, кто собирается использовать
+                <div class="bighead"><h2><b>Описание товара</b></h2></div>
+                <div class="optext"><p>Эта полноцветная книга - отличный источник информации для каждого, кто собирается использовать
                     машинное обучение на практике. Ныне машинное обучение стало неотъемлемой частью различных коммерческих
                     и исследовательских проектов, и не следует думать, что эта область - прерогатива исключительно крупных
                     компаний с мощными командами аналитиков. Эта книга научит вас практическим способам построения систем МО,
@@ -41,14 +42,14 @@
                 <table border="0" cellpadding="10">
                     <tbody>
                     <tr>
-                        <td width="50%">
-                            <a href="img/py.jpg" target="_blank"><img src="img/py.jpg" width="50%" border="0"
+                        <td width="50%" class="pic" >
+                            <a href="img/py.jpg" target="_blank"><img src="img/py.jpg" width="50%"
                                                                       alt="Введение в машинное обучение с помощью Python. Руководство для специалистов по работе с данными"
                                                                       title="Введение в машинное обучение с помощью Python. Руководство для специалистов по работе с данными"></a>
                         </td>
                         <td width="50%">
-                            <div><b>Характеристики товара</b></div><br>
-                            <ul>
+                            <div class="bighead"><b>Характеристики товара</b></div><br>
+                            <ul class="chartext">
                                 <li>Ориг.название:	Introduction to Machine Learning with Python: A Guide for Data Scientists</li>
                                 <li>   Авторы:	Андреас Мюллер, Сара Гвидо</li>
                                 <li>   Формат издания: 	170x240 мм (средний формат)</li>
